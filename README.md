@@ -1,6 +1,6 @@
 # Claude Skills
 
-A collection of custom skills for [Claude Code](https://claude.ai/claude-code).
+A collection of custom skills for [Claude Code](https://claude.ai/claude-code), focused on scientific research and biotechnology R&D.
 
 ## Skills
 
@@ -20,7 +20,19 @@ Comprehensive scientific and technical writing for biotechnology R&D in industri
 - **Presentations** — Slide decks, conference talks, posters
 - **One-Pagers** — Executive summaries and internal decision memos
 
-### Core Principles
+### `scientific-reading`
+
+Distills, analyzes, and extracts actionable intelligence from scientific literature, patents, preprints, and technical documents. Five analysis modes:
+
+- **Tactical Briefing** — Quick structured extraction: bottom line, key findings, relevance, action items
+- **Deep Technical Analysis** — Methods scrutiny, data quality assessment, reproducibility evaluation
+- **Data Extraction** — Structured comparison tables with standardized metrics across studies
+- **Patent Analysis** — Claims parsing, FTO assessment support, design-around identification
+- **Competitive Intelligence** — Landscape mapping, competitor profiling, white space identification
+
+Includes field-specific evaluation lenses for strain engineering, catalysis, fermentation, enzymology, and techno-economic papers.
+
+## Core Principles (shared across skills)
 
 - **Data over claims** — every assertion backed by specific numbers and comparisons
 - **Audience-calibrated framing** — same result, different framing for DARPA PMs vs. commercial partners vs. internal teams
@@ -30,7 +42,7 @@ Comprehensive scientific and technical writing for biotechnology R&D in industri
 
 ## Installation
 
-Add this repo as a skill source in your Claude Code configuration, or copy the `scientific-writing/` directory into your project.
+Add this repo as a skill source in your Claude Code configuration, or copy individual skill directories into your project.
 
 ## License
 
