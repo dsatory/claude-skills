@@ -11,7 +11,7 @@ The SOW is the technical and operational backbone of a contract. It defines exac
 
 ### 2. Scope of Work
 - What's included AND what's excluded
-- Boundaries matter: "This SOW covers FA2 biological conversion only; FA1 catalytic depolymerization is covered under SOW-002 (UIC subcontract)"
+- Boundaries matter: "This SOW covers Task 2 strain engineering only; Task 1 process development is covered under SOW-002 (university subcontract)"
 - Geographic, temporal, and technical boundaries
 
 ### 3. Task Descriptions
@@ -27,15 +27,15 @@ Each task should specify:
 
 **Example:**
 
-> **Task 2.1: Engineering N. aromaticivorans for PDC Accumulation**
+> **Task 2.1: Engineering *E. coli* for Succinic Acid Overproduction**
 >
-> *Objective:* Construct and characterize ligI knockout strains of N. aromaticivorans DSM12444 to block PDC ring-opening and enable extracellular PDC accumulation.
+> *Objective:* Construct and characterize knockout strains of *E. coli* MG1655 to eliminate competing fermentation pathways and enable succinate accumulation via the reductive TCA branch.
 >
-> *Approach:* Markerless deletion of ligI using established allelic exchange protocols (Perez et al. 2021). Confirm deletion by PCR and Sanger sequencing. Characterize ΔligI strains on model aromatics (vanillic acid, syringic acid, p-hydroxybenzoic acid) in shake flasks. Quantify PDC accumulation by HPLC (C18 column, UV 315 nm).
+> *Approach:* Sequential markerless deletion of *ldhA*, *pflB*, *adhE*, and *ackA* using lambda Red recombineering (Datsenko and Wanner 2000). Confirm deletions by PCR and Sanger sequencing. Characterize quadruple knockout strains on glucose, glycerol, and sucrose in shake flasks under microaerobic conditions. Quantify succinate accumulation by HPLC (Aminex HPX-87H column, UV 210 nm).
 >
-> *Inputs:* Wild-type N. aromaticivorans DSM12444 (from DSMZ); growth protocols from UW-Madison (Task 1.3).
+> *Inputs:* Wild-type *E. coli* MG1655 (from ATCC); fermentation protocols from partner university (Task 1.3).
 >
-> *Deliverables:* (1) Confirmed ΔligI strain; (2) PDC titer data from ≥3 model substrates; (3) Growth curves comparing WT and ΔligI.
+> *Deliverables:* (1) Confirmed quadruple knockout strain; (2) Succinate titer data from ≥3 carbon sources; (3) Growth curves comparing WT and engineered strains.
 >
 > *Duration:* Months 1-4. *Dependencies:* None (can begin immediately).
 
@@ -50,8 +50,8 @@ Each task should specify:
 
 | Milestone | Metric | Target | Timing | Go/No-Go |
 |-----------|--------|--------|--------|----------|
-| M1 | Delignification of ≥2 feedstocks | ≥50% | Month 8 | Go: ≥40%; No-Go: <30% |
-| M2 | Monomer yield (best feedstock) | ≥50% | Month 10 | Go: ≥40%; No-Go: <25% |
+| M1 | Titer on glucose in fed-batch | ≥100 g/L | Month 8 | Go: ≥80 g/L; No-Go: <50 g/L |
+| M2 | Titer on crude glycerol in fed-batch | ≥80 g/L | Month 10 | Go: ≥60 g/L; No-Go: <30 g/L |
 
 Go/no-go criteria should be lower than targets — they represent the minimum acceptable performance to continue, not the aspiration.
 
@@ -74,8 +74,8 @@ Go/no-go criteria should be lower than targets — they represent the minimum ac
 
 ## SOW Writing Principles
 
-- **Be specific enough to be enforceable, flexible enough to accommodate reality.** "Screen catalysts" is too vague; "Screen ≥24 catalyst compositions using HTP-RCF platform" is specific and measurable.
-- **Use measurable deliverables.** Not "investigate enzyme activity" but "determine kcat, KM, and Ki for LigF against ≥3 β-O-4 model substrates."
+- **Be specific enough to be enforceable, flexible enough to accommodate reality.** "Screen strains" is too vague; "Screen ≥24 strain variants using high-throughput microplate fermentation" is specific and measurable.
+- **Use measurable deliverables.** Not "investigate enzyme activity" but "determine kcat, KM, and Ki for PckA against ≥3 C4-dicarboxylic acid substrates."
 - **Avoid scope creep by defining what's out.** Explicitly state exclusions.
 - **Align tasks to budget.** Each task should map to a budget category. Reviewers check for consistency.
 - **Write for the worst case.** The SOW will be read when things go wrong and someone needs to determine what was actually promised.

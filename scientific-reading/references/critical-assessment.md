@@ -28,9 +28,9 @@ Does the data support the authors' conclusions?
 ### 2. External Validity (Transferability)
 Will these results hold outside the authors' specific conditions?
 
-**The model compound trap:** In lignin chemistry, the gap between model compound and real biomass performance is enormous. A catalyst that achieves 95% yield on guaiacylglycerol-β-guaiacyl ether at 10 mg scale may achieve 15% on real pine sawdust. Always note:
-- Model compound vs. technical lignin vs. real biomass
-- Synthetic media vs. real pretreatment liquor
+**The model compound trap:** In biocatalysis and bioprocess engineering, the gap between purified substrate and real feedstock performance is enormous. An enzyme that achieves 95% conversion on p-nitrophenyl acetate at 10 mg scale may achieve 15% on crude industrial waste oil. Always note:
+- Purified model substrate vs. technical-grade feedstock vs. real crude stream
+- Defined media vs. real hydrolysate or waste stream
 - Purified substrate vs. crude mixture
 - Lab-grade reagents vs. commodity chemicals
 
@@ -41,7 +41,7 @@ Will these results hold outside the authors' specific conditions?
 - Contamination control is harder at scale
 - Economics are fundamentally different
 
-**The strain context:** An engineered E. coli K-12 strain in rich media does not predict performance of an industrial P. putida in minimal media on real hydrolysate.
+**The strain context:** An engineered E. coli K-12 strain in rich media does not predict performance of an industrial C. glutamicum in minimal media on real hydrolysate.
 
 ### 3. Reproducibility Signals
 How likely is it that another group could reproduce these results?
@@ -80,11 +80,11 @@ Even valid, reproducible results may not matter for your specific application.
 
 ### "Record titer/yield/productivity"
 - Compared to what? The record on that specific substrate? On any substrate? In that organism?
-- Context matters: 99.9 g/L PDC from vanillic acid is impressive but different from 7.8 g/L from real biomass.
+- Context matters: 152 g/L succinic acid from pure glucose is impressive but different from 48 g/L from crude corn stover hydrolysate.
 
 ### "Feedstock-agnostic"
 - Tested on how many feedstocks? 2? 5? 50?
-- Were the feedstocks genuinely diverse (hardwood AND softwood AND grass) or just variants of one type?
+- Were the feedstocks genuinely diverse (glucose AND xylose AND glycerol AND crude hydrolysate) or just variants of one type?
 - "Feedstock-agnostic" with asterisks ("after pretreatment optimization for each feedstock") is really feedstock-specific with a common downstream step.
 
 ### "Scalable process"

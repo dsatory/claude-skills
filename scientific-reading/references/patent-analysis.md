@@ -46,35 +46,35 @@ Claims that don't reference other claims. Typically Claim 1 (method), sometimes 
 Break the claim into its constituent elements and assess each:
 
 **Example claim:**
-> "A method for producing 2-pyrone-4,6-dicarboxylic acid (PDC) comprising:
-> (a) contacting lignin-derived aromatic monomers with a microorganism of the genus Novosphingobium;
-> (b) wherein the microorganism comprises a disruption in the ligI gene;
-> (c) culturing under aerobic conditions; and
-> (d) recovering PDC from the culture medium."
+> "A method for producing 1,3-propanediol comprising:
+> (a) contacting a carbon source with a recombinant microorganism of the genus Escherichia;
+> (b) wherein the microorganism comprises a heterologous dhaB gene cluster encoding glycerol dehydratase;
+> (c) culturing under anaerobic or microaerobic conditions; and
+> (d) recovering 1,3-propanediol from the culture medium."
 
 **Element analysis:**
 
 | Element | Scope | Notes |
 |---------|-------|-------|
-| "lignin-derived aromatic monomers" | Broad — covers vanillin, guaiacol, syringol, etc. | Not limited to specific monomers |
-| "genus Novosphingobium" | Covers all species in genus | Not limited to DSM12444 |
-| "disruption in ligI" | Any disruption — deletion, insertion, point mutation | Broadly worded |
-| "aerobic conditions" | Standard fermentation | Not limiting |
-| "recovering PDC" | Any recovery method | Not limiting |
+| "a carbon source" | Broad — covers glucose, glycerol, corn syrup, etc. | Not limited to specific substrates |
+| "genus Escherichia" | Covers all species in genus | Not limited to K-12 or BL21 |
+| "heterologous dhaB gene cluster" | Any source of dhaB — Klebsiella, Clostridium, etc. | Broadly worded |
+| "anaerobic or microaerobic" | Standard fermentation modes | Not limiting |
+| "recovering 1,3-propanediol" | Any recovery method | Not limiting |
 
 ### Step 3: Assess the Narrowest Independent Claim
 This is the claim with the broadest scope that's still valid. It defines the practical scope of protection — what you actually need to design around.
 
 ### Step 4: Map Dependent Claims
 Dependent claims add limitations. They're fallback positions if the independent claim is invalidated:
-- "The method of Claim 1 wherein the microorganism is N. aromaticivorans DSM12444"
-- "The method of Claim 1 wherein the aromatic monomers comprise vanillic acid and syringic acid"
+- "The method of Claim 1 wherein the microorganism is E. coli MG1655"
+- "The method of Claim 1 wherein the carbon source comprises glucose and glycerol"
 
 ### Step 5: Identify Design-Around Opportunities
 For FTO analysis, identify what elements could be changed to avoid infringement:
-- Different genus? (e.g., P. putida instead of Novosphingobium)
-- Different gene disruption? (e.g., ligM instead of ligI)
-- Different product? (e.g., muconic acid instead of PDC)
+- Different genus? (e.g., Klebsiella instead of Escherichia)
+- Different gene? (e.g., pduCDE instead of dhaB)
+- Different product? (e.g., 1,2-propanediol instead of 1,3-propanediol)
 
 ---
 
@@ -131,12 +131,12 @@ Design-around options: [If applicable]
 ### Search Approaches
 
 **Keyword search:** Start broad, then narrow
-- "lignin AND depolymerization AND biological"
-- "PDC AND pyrone AND microorganism"
+- "propanediol AND fermentation AND recombinant"
+- "succinic acid AND engineered AND microorganism"
 
 **Classification search:** More precise than keywords
 - CPC codes for biotech: C12P (fermentation processes), C12N (microorganisms), C07C (organic chemistry)
-- For lignin: C08H (lignin), C10G (petroleum/lignin cracking)
+- For bioplastics: C08G (polyesters), C08L (polymer compositions)
 
 **Citation search:** Find patents that cite or are cited by a known relevant patent
 
@@ -154,7 +154,7 @@ Design-around options: [If applicable]
 ## Biotech-Specific Patent Considerations
 
 ### Genus vs. Species Claims
-Biotech patents often claim a genus (e.g., "a microorganism of the family Sphingomonadaceae") but only demonstrate a single species. Broad genus claims may be vulnerable to invalidation if enablement is insufficient.
+Biotech patents often claim a genus (e.g., "a microorganism of the family Enterobacteriaceae") but only demonstrate a single species. Broad genus claims may be vulnerable to invalidation if enablement is insufficient.
 
 ### Sequence-Based Claims
 - Claims to specific DNA/protein sequences are narrow but strong

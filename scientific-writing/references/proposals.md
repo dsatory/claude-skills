@@ -11,16 +11,16 @@ The solicitation (BAA, RFI, NOFO, PS) is the law. Its structure, requirements, p
 - **Mirror the solicitation's section structure exactly.** If they want Technical Approach → Management Plan → Key Personnel → Past Performance, that's your outline. Do not reorganize it.
 - **Address every requirement.** Use a compliance matrix if needed. Missing a requirement is often an automatic downgrade.
 - **Echo the solicitation's language.** If they say "feedstock-agnostic catalytic technologies," use those exact words when describing your approach. This isn't parroting — it's proving alignment.
-- **Respond to evaluation criteria in priority order.** If criteria are ranked (as in DARPA Fleetwood: Technical Approach > Technical Ability > Technical Comprehension), allocate page real estate proportionally.
+- **Respond to evaluation criteria in priority order.** If criteria are ranked (e.g., Technical Approach > Technical Ability > Technical Comprehension), allocate page real estate proportionally.
 
 ### DARPA-Specific Conventions
 
 DARPA proposals have a distinct culture:
 
 - **Bold, high-risk/high-reward framing.** DARPA funds what others won't. Highlight what's genuinely novel and transformative, not incremental.
-- **Quantitative metrics with clear go/no-go criteria.** DARPA PMs love measurable milestones. "Achieve ≥50% monomer yield across 3 feedstock types by Month 8" is excellent.
+- **Quantitative metrics with clear go/no-go criteria.** DARPA PMs love measurable milestones. "Achieve ≥80 g/L titer across 3 substrate types by Month 8" is excellent.
 - **Risk acknowledged and mitigated.** A proposal that claims no risks is not credible. Identify the top 3-5 technical risks, rate their severity/likelihood, and present concrete mitigation strategies.
-- **Team capability demonstrated, not just claimed.** Don't say "world-class team." Say "PI has published 23 papers on lignin catalysis and demonstrated RCF at 1 kg scale (Smith et al. 2024)."
+- **Team capability demonstrated, not just claimed.** Don't say "world-class team." Say "PI has published 23 papers on microbial organic acid production and demonstrated fed-batch succinate fermentation at 500 L scale (Smith et al. 2024)."
 - **Brief is better.** DARPA appreciates concision. Dense, substantive paragraphs beat padded sections.
 
 ### Proposal Structure (Typical Government)
@@ -130,6 +130,6 @@ Commercial proposals differ fundamentally from government proposals in audience,
 ### Writing for Business Audiences
 
 - Lead with "so what" — why should they care?
-- Translate scientific concepts: "biological funneling" → "our engineered microbes convert the messy mixture of lignin breakdown products into a single, pure chemical output — eliminating costly separation steps"
+- Translate scientific concepts: "dynamic pathway regulation" → "our engineered microbes automatically shift their metabolism from growth to production at the optimal time — maximizing output without manual intervention"
 - Use bullet points and tables more liberally
 - Every paragraph should answer an implicit question the reader has

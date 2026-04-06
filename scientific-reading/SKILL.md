@@ -90,7 +90,7 @@ Scientific papers mix established facts, well-supported findings, plausible inte
 In biotech, the methods section determines whether the results mean what the authors claim. Before evaluating any result, understand:
 
 - **What organism and strain?** Wild-type vs. engineered, lab strain vs. industrial isolate
-- **What substrate?** Model compound vs. real biomass (this is the single biggest distinction in lignin chemistry — a catalyst that works on guaiacylglycerol-β-guaiacyl ether may fail on real lignin)
+- **What substrate?** Model compound vs. real feedstock (this is a critical distinction in biocatalysis — an enzyme that works on a purified substrate may fail on crude fermentation broth)
 - **What scale?** μL (analytical), mL (shake flask), L (bioreactor), pilot
 - **What conditions?** Temperature, pressure, time, pH, media, atmosphere
 - **What analytics?** How were products identified and quantified? Was a mass balance closed?
@@ -107,8 +107,8 @@ Never report "improved yield" when the paper says "yield increased from 31% to 4
 
 ### Context Matters More Than Results
 
-A 50% yield sounds great until you learn it's from a model dimer at 10 mg scale. A 15% yield sounds disappointing until you learn it's from real pine sawdust at 1 kg scale with 5 recycles. Always report results in context:
-- **Substrate complexity:** Model compound → technical lignin → real biomass
+A 50% yield sounds great until you learn it's from a purified substrate at 10 mg scale. A 15% yield sounds disappointing until you learn it's from crude corn stover hydrolysate at 1 kg scale with 5 recycles. Always report results in context:
+- **Substrate complexity:** Model compound → purified feedstock → real crude feedstock
 - **Scale:** Analytical → bench → pilot → demo
 - **Duration/stability:** Single run → repeated batches → continuous operation
 - **Economic context:** Lab-grade reagents → commodity chemicals → waste feedstocks

@@ -28,7 +28,7 @@ Mapping who is doing what, with what funding, at what maturity, and what it mean
 - Conference proceedings and abstract books are searchable
 
 ### Job Postings
-- A company hiring for "lignin valorization scientist" or "metabolic engineer — aromatic catabolism" signals active programs
+- A company hiring for "fermentation scientist — succinic acid" or "metabolic engineer — terpenoid pathways" signals active programs
 - Tracks emerging competitors before they publish
 
 ### Press Releases and News
@@ -45,26 +45,25 @@ Create a tracker of groups actively publishing or patenting in the relevant spac
 
 | Group | Institution | Focus | Key People | Recent Output | Funding |
 |-------|-----------|-------|------------|---------------|---------|
-| Beckham Lab | NREL | Biological funneling, P. putida | Gregg Beckham | Science Advances 2023 (β-KA, 44.5 g/L) | DOE BETO |
-| Donohue Lab | UW-Madison/GLBRC | N. aromaticivorans, PDC | Tim Donohue | ACS ES&T Eng 2026 (PDC MBR) | DOE GLBRC |
-| Kamimura Group | Nagaoka U. | SYK-6 platform, PDC | Naofumi Kamimura | JAFC 2026 (SYK-6 BL) | JSPS |
-| Sels Group | KU Leuven | RCF catalysis | Bert Sels | Nat Commun 2022 (RuN/ZnO/C) | EU Horizon |
+| Lee Lab | KAIST | Succinic acid, systems metabolic eng. | Sang Yup Lee | Nat Biotechnol 2024 (succinic acid, 101 g/L) | Korean NRF |
+| Nielsen Lab | Chalmers U. | Yeast lipid production, fatty acids | Jens Nielsen | Metab Eng 2023 (oleic acid platform) | EU Horizon |
+| Stephanopoulos Group | MIT | Metabolic engineering, adipic acid | Greg Stephanopoulos | ACS Synth Biol 2025 (adipic acid, E. coli) | DOE BETO |
+| Bornscheuer Group | Greifswald U. | Enzyme engineering, biocatalysis | Uwe Bornscheuer | Angew Chem 2024 (esterase panel) | DFG |
 
 ### Step 2: Map Technical Positions
 
 For each group, assess their position on your pipeline:
 
 ```
-FA1 (Deconstruction):
-├── RCF specialists: Sels (KU Leuven), Luterbacher (EPFL), Román-Leshkov (MIT)
-├── C-C cleavage: Stahl (UW-Madison), Wang (Dalian), Electrocatalytic (multiple)
-└── Enzymatic: Masai/Kamimura (SYK-6 enzymes), Bugg (Warwick)
+Pathway Engineering:
+├── C4 dicarboxylic acids: Lee (KAIST), Jang (Konkuk), Thakker (Georgia Tech)
+├── Amino acid derivatives: Wendisch (Bielefeld), Wittmann (Saarland), Bott (Jülich)
+└── Terpenoid/isoprenoid: Keasling (UC Berkeley/JGI), Ajikumar (MIT), Prather (MIT)
 
-FA2 (Conversion):
-├── P. putida: Beckham (NREL), Nikel (DTU), Wierckx (Jülich)
-├── N. aromaticivorans: Donohue (UW-Madison) [essentially sole group]
-├── SYK-6: Masai/Kamimura (Nagaoka) [essentially sole group]
-└── Other organisms: Johnson (NREL, Acinetobacter), Vardon (NREL, Rhodococcus)
+Biocatalysis / Enzyme Engineering:
+├── Directed evolution: Arnold (Caltech), Reetz (Marburg), Savile (Codexis)
+├── Computational design: Baker (UW), Hilvert (ETH Zurich), Khersonsky (Weizmann)
+└── Cell-free systems: Jewett (Stanford), Swartz (Stanford), Dudley (Northwestern)
 ```
 
 ### Step 3: Assess Competitive Threats
@@ -83,10 +82,10 @@ For each competitor, evaluate:
 ### Step 4: Identify White Space
 
 Map what's NOT being done:
-- Combinations no one has tried (e.g., specific catalyst + specific organism)
-- Feedstocks not yet tested (the Fleetwood "feedstock-agnostic" requirement)
+- Combinations no one has tried (e.g., specific enzyme variant + specific host organism)
+- Feedstocks not yet tested (crude waste streams, mixed carbon sources)
 - Scale-up gaps (most work is bench-scale)
-- Integration gaps (chemical + biological integration is rare)
+- Integration gaps (upstream + downstream process integration is rare)
 - Economic analysis gaps (few TEA studies on real process data)
 
 White space = opportunity for differentiation in proposals.
@@ -97,7 +96,7 @@ White space = opportunity for differentiation in proposals.
 
 ### Building a Patent Map
 
-For a defined technology area (e.g., "lignin depolymerization + biological conversion"):
+For a defined technology area (e.g., "enzymatic plastic recycling + microbial upcycling"):
 
 1. **Search broadly** — capture 50-200 relevant patents/applications
 2. **Triage** — sort into "directly relevant," "adjacent," and "background"
@@ -110,8 +109,8 @@ For a defined technology area (e.g., "lignin depolymerization + biological conve
 
 | Patent/Application | Assignee | Filing Date | Key Claims | Relevance | FTO Risk |
 |-------------------|----------|-------------|------------|-----------|----------|
-| US 11,XXX,XXX | NREL | 2022 | Engineered P. putida for muconate from lignin | High | Medium |
-| WO 2024/XXXXXX | KU Leuven | 2023 | RCF catalyst composition | Medium | Low (different catalyst) |
+| US 11,XXX,XXX | Genomatica | 2022 | Engineered E. coli for 1,4-butanediol from glucose | High | Medium |
+| WO 2024/XXXXXX | Novozymes | 2023 | Thermostable PET hydrolase composition | Medium | Low (different enzyme class) |
 
 ### Trend Analysis
 - Increasing patent filings = growing commercial interest

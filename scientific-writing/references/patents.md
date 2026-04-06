@@ -10,8 +10,8 @@ The invention disclosure is your first step — an internal document that captur
 
 #### 1. Title of Invention
 - Descriptive and specific
-- "Method for Producing 2-Pyrone-4,6-Dicarboxylic Acid from Lignin-Derived Aromatics Using Engineered Novosphingobium aromaticivorans"
-- Not "New Way to Make PDC" or "Improved Lignin Conversion"
+- "Method for Producing Succinic Acid from Crude Glycerol Using Engineered Escherichia coli with Dynamic Pathway Regulation"
+- Not "New Way to Make Succinate" or "Improved Fermentation Method"
 
 #### 2. Inventors
 - Everyone who contributed to the inventive concept (not just execution)
@@ -70,8 +70,8 @@ You must show you "possessed" the invention at the time of filing:
 
 ### Claims Support
 Claims define the scope of protection. Your technical input helps write stronger claims:
-- **Broad claim**: "A method for producing PDC comprising contacting lignin-derived aromatics with an engineered microorganism of the genus Novosphingobium wherein the ligI gene is disrupted"
-- **Narrow claim**: "The method of claim 1 wherein the microorganism is N. aromaticivorans DSM12444 ΔligI and the aromatics comprise vanillic acid, syringic acid, and p-hydroxybenzoic acid"
+- **Broad claim**: "A method for producing succinic acid comprising culturing an engineered microorganism of the genus Escherichia in a medium containing glycerol wherein the ldhA and pflB genes are disrupted"
+- **Narrow claim**: "The method of claim 1 wherein the microorganism is E. coli KJ134 ΔldhA ΔpflB ΔadhE ΔackA and the medium comprises crude glycerol at a concentration of 20-80 g/L"
 
 Broader claims provide more protection but are harder to defend. Narrow claims are more defensible but easier to design around.
 
@@ -98,7 +98,7 @@ Broader claims provide more protection but are harder to defend. Narrow claims a
 ## Writing Principles for IP Documents
 
 - **Be exhaustive in examples.** More examples = broader claim support. Test your invention under varied conditions.
-- **Describe alternatives.** "While the preferred embodiment uses Ru/C, the method may also be practiced with Pd/C, Ni/C, or other supported metal catalysts" — this broadens the patent.
+- **Describe alternatives.** "While the preferred embodiment uses *E. coli* KJ134, the method may also be practiced with *C. glutamicum*, *S. cerevisiae*, or other succinic acid-producing microorganisms" — this broadens the patent.
 - **Quantify everything.** Ranges, specific values, comparison data.
 - **Avoid absolute statements** ("always," "never," "all") unless you can defend them.
 - **Mark confidential.** Invention disclosures are trade secrets until published. Mark every page.

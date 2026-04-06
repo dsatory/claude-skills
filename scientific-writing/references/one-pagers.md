@@ -20,7 +20,7 @@ The one-pager is the most brutally compressed format in scientific communication
 ### The Hook (1-2 sentences)
 Open with the most compelling fact, number, or question. Not background — impact.
 
-**Example:** "Lignin — 30% of all non-fossil organic carbon — is burned or discarded as waste. Our integrated chemo-biological platform converts it to $6B+ worth of target chemicals at competitive MSP."
+**Example:** "The US imports >90% of its 1,3-propanediol at $1.8B/year, yet domestic fermentation routes remain uncompetitive above $2.20/kg. Our engineered *E. coli* platform produces 1,3-PDO from crude glycerol at $1.45/kg MSP — cost-competitive with petrochemical routes."
 
 ### The Problem (2-3 sentences)
 Why this matters. Use a specific number.
@@ -33,9 +33,9 @@ A single figure, table, or set of 3-4 highlighted metrics. This is the visual ce
 
 For example, a callout box:
 > **Key Metrics**
-> - 46% monomer yield from birch (20× catalyst efficiency)
-> - 100% stoichiometric yield from syringic acid → PDC
-> - MSP: $2.01/kg (competitive with $1.10-1.80/kg petroleum-derived)
+> - 152 g/L titer in fed-batch (2.3× previous best reported)
+> - 1.1 g/g yield on crude glycerol (96% of theoretical maximum)
+> - MSP: $1.45/kg (competitive with $1.50-2.20/kg petrochemical)
 
 ### Path Forward / The Ask (2-3 sentences)
 What you need (funding, partnership, decision) or what happens next.
@@ -69,8 +69,8 @@ Memos are decision-support documents. They exist to help someone (usually a mana
 
 ### Subject Line
 State the decision or question, not the topic.
-- **Bad:** "Lignin Project Update"
-- **Good:** "Recommendation: Select PDC as Primary Target Chemical for Fleetwood Proposal"
+- **Bad:** "Fermentation Project Update"
+- **Good:** "Recommendation: Select Succinic Acid as Primary Target for DOE BioEnergy Proposal"
 
 ### Context (2-3 sentences)
 Why is this memo being written now? What triggered it?
@@ -83,9 +83,9 @@ Present 2-4 options with trade-offs:
 
 | Option | Pros | Cons | Estimated Impact |
 |--------|------|------|-----------------|
-| PDC as primary target | Strongest technical differentiation; aligns with "atomic-level precision" language | Higher MSP ($13.98/kg); specialty market | High alignment with solicitation |
-| 4-HBA as primary target | Strong import substitution narrative; LCP defense applications | Less technically distinctive | Moderate alignment |
-| Both as co-primary | Broader impact story | Dilutes focus; more work | Depends on execution |
+| Succinic acid as primary target | Strongest technical differentiation; aligns with "drop-in replacement" language | Competitive market (BASF, Reverdia) | High alignment with solicitation |
+| Itaconic acid as primary target | Strong specialty chemical narrative; polymer applications | Smaller addressable market ($0.4B) | Moderate alignment |
+| Both as co-primary | Broader impact story; shared platform organism | Dilutes focus; more work | Depends on execution |
 
 ### Recommendation
 State your recommendation clearly and explain why.

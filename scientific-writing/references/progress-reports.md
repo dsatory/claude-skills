@@ -37,14 +37,14 @@ Use a traffic-light system for at-a-glance status:
 
 | Milestone | Target Date | Status | Current Progress | Notes |
 |-----------|-----------|--------|-----------------|-------|
-| M1: ≥50% delignification | Month 8 | Green | 47% achieved on birch (Month 5) | On track |
-| M2: ≥50% monomer yield | Month 10 | Yellow | 38% on hardwood, 18% softwood | Softwood optimization ongoing |
+| M1: ≥100 g/L titer on glucose | Month 8 | Green | 112 g/L achieved in fed-batch (Month 5) | On track |
+| M2: ≥80 g/L titer on crude glycerol | Month 10 | Yellow | 68 g/L on refined glycerol, 41 g/L crude | Crude glycerol inhibitor removal ongoing |
 
 ### 5. Risk Register Update
 
 | Risk | Status | Likelihood | Impact | Mitigation | Update |
 |------|--------|-----------|--------|-----------|--------|
-| Softwood recalcitrance | Active | High | Medium | Alternative catalyst screening | Added Cu/Ni dual-site catalyst to screening panel |
+| Crude glycerol impurities | Active | High | Medium | Pretreatment optimization | Added activated carbon adsorption step to screening panel |
 
 ### 6. Financial Summary
 - Budget vs. actual spend by category
@@ -64,9 +64,9 @@ Use a traffic-light system for at-a-glance status:
 
 ## Writing Principles
 
-- **Lead with results, not activities.** "Achieved 47% delignification on birch" not "Performed RCF experiments on birch."
+- **Lead with results, not activities.** "Achieved 112 g/L succinate titer in fed-batch" not "Performed fermentation experiments on glucose."
 - **Be honest about problems.** Program managers respect teams that identify issues early and propose solutions. Hiding problems until they're crises destroys trust.
-- **Quantify everything.** Numbers, not adjectives. "Significant progress" is meaningless; "increased monomer yield from 31% to 47%" is informative.
+- **Quantify everything.** Numbers, not adjectives. "Significant progress" is meaningless; "increased titer from 78 g/L to 112 g/L" is informative.
 - **Connect results to milestones.** Every result should map to a program metric. If you're doing work that doesn't map to a milestone, either it needs to or you're off-scope.
 - **Keep it concise.** Program managers read dozens of these. 5-10 pages for a quarterly report is typical. Dense content beats padded pages.
 - **Use consistent formatting across reports.** The reader should be able to flip to "Task 2.1" in every quarterly report and see how it evolved over time.

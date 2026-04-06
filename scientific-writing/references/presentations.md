@@ -12,8 +12,8 @@ The best scientific slides contain a single figure with a clear title and minima
 
 ### Assertion-Evidence Structure
 Replace generic titles ("Results") with assertion titles that state the finding:
-- **Weak:** "RCF Results on Birch"
-- **Strong:** "RCF achieves 46% monomer yield from birch at 20× catalyst efficiency"
+- **Weak:** "Fed-Batch Fermentation Results"
+- **Strong:** "Engineered *E. coli* achieves 146 g/L succinate on crude glycerol at 96% theoretical yield"
 
 The title is the takeaway. The figure is the evidence. The speaker provides the narrative connecting them.
 

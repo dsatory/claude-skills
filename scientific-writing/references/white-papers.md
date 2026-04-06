@@ -13,7 +13,7 @@ White papers in industrial biotech occupy the space between a technical report a
 ## Structure
 
 ### 1. Title and Framing
-- Titles should promise insight, not just topic: "From Waste to Value: How Biological Funneling Unlocks the $6B Lignin Opportunity" rather than "Lignin Valorization Overview"
+- Titles should promise insight, not just topic: "From Waste Glycerol to Platform Chemical: How Engineered Microbes Unlock the $4B Succinic Acid Market" rather than "Bio-Based Succinic Acid Overview"
 - Include a 2-3 sentence abstract/teaser at the top
 
 ### 2. The Problem (25% of content)
@@ -29,7 +29,7 @@ White papers in industrial biotech occupy the space between a technical report a
 ### 4. The Emerging Solution (35%)
 - Your technical vision, grounded in data
 - Clear enough for a business reader, deep enough for a technical one
-- Use analogies for complex concepts: "Biological funneling works like a river system — dozens of tributaries (diverse lignin monomers) converge into a single channel (one target chemical)"
+- Use analogies for complex concepts: "Dynamic pathway regulation works like a thermostat — the cell senses its own growth phase and automatically redirects carbon flux from biomass to product at the optimal moment"
 - Include a key figure or process diagram
 - Reference supporting data without drowning in methodology
 

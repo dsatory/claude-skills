@@ -3,7 +3,7 @@ name: scientific-writing
 description: >
   Comprehensive scientific and technical writing for biotechnology R&D in industrial settings.
   Covers every document type in the biotech research lifecycle: grant abstracts, government proposals
-  (DARPA, DOE, ARPA-E, BARDA), commercial proposals, technical reports, literature reviews,
+  (DOE, DARPA, ARPA-E, BARDA, NSF), commercial proposals, technical reports, literature reviews,
   white papers, SOWs, progress reports, patent disclosures, slide decks, one-pagers, and internal memos.
   Use this skill whenever the user asks to write, draft, edit, revise, or review any scientific or
   technical document — even if they just say "write up the results" or "draft the abstract" or
@@ -25,8 +25,8 @@ These principles apply across ALL document types:
 
 Every assertion earns its place with evidence. Vague claims like "significant improvement" or "promising results" are red flags — replace them with specific numbers, comparisons, and context. If the data doesn't exist yet, say what data you'd need and frame the gap honestly.
 
-**Weak:** "Our catalyst showed excellent performance on lignin substrates."
-**Strong:** "RuN/ZnO/C achieved 46.4 wt% monomer yield from birch at 0.012 wt% Ru loading (TON = 431), representing a 20-fold improvement over commercial Ru/C (TON ~20-45)."
+**Weak:** "Our enzyme showed excellent performance on the target substrate."
+**Strong:** "Engineered CalB variant M3 achieved 98.2% ee and 340 g/L/h productivity in kinetic resolution of rac-ibuprofen at 50°C, representing a 15-fold improvement over wild-type CalB (22 g/L/h) under identical conditions."
 
 ### 2. Audience-Calibrated Framing
 
@@ -47,7 +47,7 @@ Scientific writing demands terminological precision. Use the correct technical t
 
 - Distinguish between **yield** (mass or molar), **conversion**, **selectivity**, and **productivity** — these are not interchangeable
 - Specify units always: g/L, mol/mol, wt%, g/L/h
-- Use organism nomenclature correctly: *P. putida* KT2440 (italicized genus/species, roman strain)
+- Use organism nomenclature correctly: *E. coli* BL21(DE3) (italicized genus/species, roman strain)
 - Distinguish **titer** (concentration at harvest), **yield** (product per substrate), and **productivity** (rate of production)
 
 ### 4. Strategic Narrative Architecture
@@ -67,7 +67,7 @@ This is not a rigid template — it's a thinking framework. In an abstract, all 
 Credibility comes from acknowledging what you don't know. Flag limitations, caveats, and assumptions — but do it strategically. State the limitation, then immediately provide context or mitigation:
 
 **Weak:** "This approach has several limitations."
-**Strong:** "RCF primarily cleaves β-O-4 bonds, capping monomer yields at ~40-50% for hardwoods. Our two-step strategy addresses this ceiling through subsequent Mn/Zr-mediated C-C cleavage, which demonstrated an additional 28 mol% yield from real biomass oligomers."
+**Strong:** "Anaerobic succinic acid fermentation with *A. succinogenes* plateaus at ~70 g/L due to product inhibition at pH < 6.2. Our dual-phase strategy addresses this ceiling through in situ electrodialysis, which maintained extracellular succinate below 35 g/L and enabled final titers of 112 g/L with 1.1 g/g yield."
 
 ---
 
@@ -132,7 +132,7 @@ Each document type has specific conventions, structures, and strategic considera
 When data is uncertain or preliminary, be precise about the uncertainty rather than vague:
 
 - **Bad:** "Results suggest potential improvement"
-- **Better:** "Preliminary data from n=3 replicates indicate 23 ± 4% yield improvement (p=0.08); a powered study (n≥12) is planned for Month 4"
+- **Better:** "Preliminary data from n=3 replicates indicate 23 ± 4% titer improvement (p=0.08); a powered study (n>=12) is planned for Month 4"
 
 ### Tables and Figures
 
@@ -145,18 +145,18 @@ Tables and figures are the backbone of scientific communication. A well-designed
 
 ### Citations
 
-- In technical documents: numbered references [1] or author-year (Beckham et al. 2016) depending on format
+- In technical documents: numbered references [1] or author-year (Nielsen et al. 2016) depending on format
 - Always cite primary sources, not reviews, for specific claims
 - When citing your own unpublished work: "preliminary data (unpublished)" or "internal data" — be transparent
 - For proposals: cite recent, high-impact work; show you know the field's cutting edge
 
 ### Common Biotech-Specific Conventions
 
-- Enzyme names: lowercase italics for genes (*ligD*), regular case for proteins (LigD)
-- Organism names: italicized binomial (*Pseudomonas putida*), abbreviated after first use (*P. putida*)
-- Strain designators: roman, not italicized (KT2440, AW299, DSM12444)
+- Enzyme names: lowercase italics for genes (*adhE*), regular case for proteins (AdhE)
+- Organism names: italicized binomial (*Escherichia coli*), abbreviated after first use (*E. coli*)
+- Strain designators: roman, not italicized (BL21, MG1655, ATCC 31749)
 - Chemical formulas: subscript numbers (H₂O, CO₂), not plain text
-- Use IUPAC nomenclature for chemicals; common names acceptable if unambiguous (vanillin, guaiacol)
+- Use IUPAC nomenclature for chemicals; common names acceptable if unambiguous (succinate, itaconate)
 
 ---
 

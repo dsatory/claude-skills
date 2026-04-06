@@ -17,7 +17,7 @@ Technical reports are the most detailed document type in industrial biotech R&D.
 - Authors with affiliations
 - Date and version
 - Distribution/confidentiality marking
-- Program reference if applicable (e.g., "DARPA Fleetwood Program, Bid #954")
+- Program reference if applicable (e.g., "DOE BioEnergy Program, Award #DE-SC0021432")
 
 ### Executive Summary (1-2 pages)
 - Self-contained summary for readers who won't read the full report
@@ -106,11 +106,11 @@ Tables and figures are not decoration — they are the structural backbone of th
 - Caption describes what's shown AND the key takeaway
 
 **Example good caption:**
-> **Table 3.** Monomer yields from RCF of diverse feedstocks using RuN/ZnO/C catalyst (0.012 wt% Ru, MeOH, 240°C, 3 MPa H₂, 4 h). Birch achieves the highest yield (46.4 wt%), consistent with its high S/G ratio and β-O-4 content. Softwood yields (14-16 wt%) reflect the higher proportion of C-C linkages. Values are mean ± SD of triplicate experiments.
+> **Table 3.** Succinic acid titers from fed-batch fermentation of *E. coli* KJ134 on diverse carbon sources (mineral salts medium, 37°C, pH 7.0, 0.1 vvm CO₂, 72 h). Crude glycerol achieves the highest titer (146 ± 3.2 g/L), consistent with its favorable redox balance for the reductive TCA pathway. Glucose-based titers (98-112 g/L) reflect NADH limitation under anaerobic conditions. Values are mean ± SD of triplicate experiments.
 
 ## Tone and Voice
 
 - Active voice dominant, passive acceptable in methods
 - Third person for formal reports, first person plural ("we") acceptable for internal
 - Confident but precise — state what the data show, not what you hope it shows
-- Technical vocabulary without jargon. "Reductive catalytic fractionation" is technical vocabulary (precise term for a specific process). "Synergistic leveraging of biomass conversion paradigms" is jargon (vague words that obscure rather than clarify).
+- Technical vocabulary without jargon. "Dynamic pathway regulation" is technical vocabulary (precise term for a specific strategy). "Synergistic leveraging of metabolic conversion paradigms" is jargon (vague words that obscure rather than clarify).

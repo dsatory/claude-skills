@@ -13,15 +13,15 @@ For a quick but rigorous paper distillation (~2-3 minutes of reading time for th
 The single most important takeaway for the reader's work. This requires understanding both the paper AND the reader's context.
 
 **Examples:**
-- "First demonstration of integrated chemical C-C cleavage + biological funneling on real biomass — directly validates our proposed Step 2→3 pipeline."
-- "New β-etherase with 3× higher activity than LigF, but only tested on model dimers — worth monitoring, not ready for our platform."
-- "TEA shows RCF bio-oil at €1,264/ton with solvent recycling — competitive with fossil phenol, directly citable for our DARPA cost projections."
+- "First demonstration of one-pot enzymatic PET depolymerization + microbial conversion to PHA — directly validates our proposed cascade bioprocess."
+- "New thermostable ketoreductase with 3x higher activity than LbADH, but only tested on model ketones — worth monitoring, not ready for our platform."
+- "TEA shows bio-succinic acid at $1,086/ton with integrated membrane separation — competitive with petroleum-derived, directly citable for our DOE cost projections."
 
 ### Step 3: Key Findings (3-5 bullets)
 Each bullet must contain a specific number or concrete claim. No vague summaries.
 
-**Bad:** "The authors achieved improved lignin depolymerization."
-**Good:** "Cu/Ni-SA@HNC achieved 33.7 ± 1.6 wt% toluene from poplar lignin (mean of 9 replicates), stable for 100 h on stream at 75.5% conversion in continuous flow."
+**Bad:** "The authors achieved improved itaconic acid production."
+**Good:** "Engineered A. terreus ΔcitA/OE-cadA achieved 87.3 ± 2.1 g/L itaconic acid from corn stover hydrolysate (mean of 6 replicates), stable for 120 h in fed-batch at 0.62 g/g glucose yield."
 
 ### Step 4: Relevance Assessment
 Map findings to the reader's current work:
@@ -39,9 +39,9 @@ What should the reader be cautious about:
 
 ### Step 6: Action Items
 Concrete next steps:
-- "Cite in Section 4.2 of the Fleetwood technical approach"
-- "Add to comparison table in lit review — RCF catalyst benchmarks"
-- "Contact corresponding author re: collaboration — they have complementary FA1 capability"
+- "Cite in Section 4.2 of the DOE technical approach"
+- "Add to comparison table in lit review — biocatalyst benchmarks"
+- "Contact corresponding author re: collaboration — they have complementary enzyme engineering capability"
 - "Monitor — promising but needs validation on real substrates before we build on it"
 - "Check if patent filed — could affect our FTO"
 
@@ -59,7 +59,7 @@ Everything in the Tactical Briefing, plus:
 - Reproduce the experimental logic in your mind: given these methods, would you expect these results?
 - Identify missing controls
 - Assess whether analytical methods are appropriate and sufficient
-- Check if the mass balance closes (in lignin chemistry, unclosed mass balances hide repolymerization or uncharacterized products)
+- Check if the mass balance closes (in bioconversion, unclosed mass balances hide byproduct accumulation or uncharacterized metabolites)
 - Note any unusual or non-standard procedures
 
 #### Data Quality Assessment

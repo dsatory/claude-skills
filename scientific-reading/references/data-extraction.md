@@ -23,15 +23,15 @@ Extracting quantitative data from literature into standardized, comparable forma
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
-| Catalyst | RuN/ZnO/C (0.012 wt% Ru) | Ultra-low noble metal loading |
-| Substrate | Birch wood chips (real biomass) | Also tested beech, eucalyptus, poplar, pine, spruce, miscanthus |
-| Conditions | MeOH, 240°C, 3 MPa H₂, 4 h | Standard RCF conditions |
-| Monomer yield | 46.4 wt% (birch) | Hardwoods 37.9-41.9%; softwoods 14.3-16.2%; grass 26.7% |
-| TON | 431 mol_phenols/mol_Ru | 20× commercial Ru/C (TON ~20-45) |
-| Stability | 5 recycles (after regeneration); 72 h hydrothermal at 200°C | Industrially relevant stability |
-| Cellulose retention | >96% | Enables co-product valorization |
-| Mass balance | Not explicitly stated | Flag: request from authors or estimate from SI |
-| Scale | Not specified in abstract | Check methods section |
+| Enzyme | Engineered CalB lipase variant M3 (Novozym 435 scaffold) | 4 mutations in active site lid region |
+| Substrate | Waste cooking oil (real feedstock) | Also tested palm, soybean, rapeseed, and olive oils |
+| Conditions | 50°C, solvent-free, 1:3 oil:methanol molar ratio, 24 h | Industrially relevant conditions |
+| Conversion | 97.2% (waste cooking oil) | Refined oils 95.8-98.4%; crude oils 89.1-93.6% |
+| Specific activity | 342 U/mg protein | 8x wild-type CalB (42 U/mg) |
+| Stability | 15 recycles (>90% retained activity); 500 h continuous at 50°C | Industrially relevant stability |
+| Glycerol purity | >95% | Enables co-product valorization |
+| Mass balance | 98.3% accounted | Excellent closure |
+| Scale | 2 L stirred-tank reactor | Check methods for mixing details |
 
 ### Fermentation / Bioproduction Results
 
@@ -126,7 +126,7 @@ Add a quality/confidence column when appropriate:
 6. Sort and present with narrative commentary
 
 ### For Proposal Benchmarking
-1. Identify the program metrics (e.g., Fleetwood: ≥50% delignification, ≥50% monomer yield)
+1. Identify the program metrics (e.g., DOE target: ≥90% theoretical yield, titer ≥50 g/L, productivity ≥1.0 g/L/h)
 2. Extract data specifically mapped to those metrics
 3. Create a "state of the art vs. program targets" table
 4. Identify where your approach meets/exceeds targets and where gaps remain

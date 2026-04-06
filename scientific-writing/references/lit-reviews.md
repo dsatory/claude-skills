@@ -27,10 +27,10 @@ Not a narrative document — a structured comparison table with commentary. Ofte
 
 Organize by technical challenge, approach, or question — never by "Paper A found X, Paper B found Y." Synthesis means drawing connections, identifying consensus, flagging contradictions, and highlighting gaps.
 
-**Good thematic organization (lignin example):**
-- Section: "C-O Bond Cleavage: Reductive Approaches"
-- Section: "C-C Bond Cleavage: The Remaining Challenge"
-- Section: "Biological Funneling: Converting Heterogeneity into Uniformity"
+**Good thematic organization (succinic acid example):**
+- Section: "Host Selection: Native vs. Heterologous Producers"
+- Section: "Reductive vs. Oxidative TCA Routes: Balancing Yield and Redox"
+- Section: "Downstream Processing: Crystallization, Electrodialysis, and Reactive Extraction"
 - Section: "Techno-Economic Benchmarks"
 
 **Bad organization:**
@@ -63,16 +63,16 @@ Include enough detail for someone to assess each result without reading the pape
 ### Synthesize, Don't Summarize
 A summary tells you what each paper says. A synthesis tells you what the body of literature means. Every paragraph should make an analytical point supported by multiple citations.
 
-**Summary (weak):** "Wang et al. (2024) achieved 33.7% toluene yield from poplar lignin using Cu/Ni dual sites. The catalyst was stable for 100 h."
+**Summary (weak):** "Park et al. (2024) achieved 146 g/L succinic acid titer using engineered *E. coli*. The strain was stable for 120 h fed-batch."
 
-**Synthesis (strong):** "Atomically dispersed dual-site catalysts represent a step change in C-C cleavage selectivity. Cu/Ni-SA@HNC achieves 33.7 wt% toluene from real poplar lignin — the highest single-product yield reported — by preferentially cleaving C-C over C-O bonds, a thermodynamically unusual selectivity explained by DFT-calculated synergistic reduction in H₂ splitting activation energy (1.13 eV vs. 1.87 eV Cu alone) [Wang 2025]. This contrasts with Mn/Zr autoxidation [Rodriguez 2024], which cleaves the same bonds oxidatively at lower selectivity but with the advantage of direct integration with biological funneling."
+**Synthesis (strong):** "Dual-phase fermentation strategies represent a step change in succinic acid productivity by decoupling growth from production. *E. coli* KJ134 achieves 146 g/L at 1.2 g/g yield under CO₂-supplemented microaerobic conditions — the highest reported titer using a mineral salts medium — by channeling flux through the reductive TCA branch via deletion of *ldhA*, *pflB*, *adhE*, and *ackA* [Park 2024]. This contrasts with native producers like *A. succinogenes* 130Z [Li 2023], which achieve comparable titers (120 g/L) without genetic modification but require complex media containing yeast extract, limiting cost competitiveness at scale."
 
 ### Be Quantitative
 Extract and compare numbers across studies. When papers use different units or bases, convert to common units. Note when direct comparison isn't possible and why.
 
 ### Assess Quality, Don't Just Report
 Not all published data are equally reliable. Note:
-- Model compounds vs. real biomass (a huge distinction in lignin chemistry)
+- Model substrates vs. real feedstocks (a huge distinction in bioprocess development)
 - Scale of demonstration (μL, mL, L, pilot)
 - Number of replicates and statistical treatment
 - Whether results have been independently reproduced
@@ -85,5 +85,5 @@ In fast-moving fields like synthetic biology, a 3-year-old review is ancient his
 
 - Track full bibliographic data from the start — retrofitting citations is painful
 - Note open access status for each source (relevant for proposals and sharing)
-- Tag each reference by relevance category (FA1, FA2, TEA, organism, etc.)
+- Tag each reference by relevance category (strain engineering, process, TEA, organism, etc.)
 - Maintain a living reference list that grows across projects
